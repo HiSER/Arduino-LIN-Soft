@@ -26,7 +26,7 @@ switch (lin.response(&pid, &buffer[0], &length))
 }
 
 lin.query(pid, data, dataLength);	// отправка данных, pid - адрес, data - данные включая CRC,
-									//dataLength - длина данных включая CRC
+					//dataLength - длина данных включая CRC
 uint8 pid;
 switch (lin.response(&pid))
 {
