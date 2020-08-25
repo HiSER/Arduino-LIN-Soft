@@ -1,0 +1,26 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HSLINSoft KEYWORD1
+eResponse KEYWORD1
+uint8 KEYWORD1
+uint16 KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+end KEYWORD2
+query KEYWORD2
+response KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+erWait LITERAL1
+erOk LITERAL1
+erTimeout LITERAL1
+erNoQuery LITERAL1
