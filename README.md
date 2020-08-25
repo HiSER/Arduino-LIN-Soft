@@ -25,7 +25,8 @@ switch (lin.response(&pid, &buffer[0], &length))
 	case lin.erNoQuery: break; // небыло запроса
 }
 
-lin.query(pid, data, dataLength); // отправка данных, pid - адрес, data - данные включая CRC, dataLength - длина данных включая CRC
+lin.query(pid, data, dataLength);	// отправка данных, pid - адрес, data - данные включая CRC,
+									//dataLength - длина данных включая CRC
 uint8 pid;
 switch (lin.response(&pid))
 {
