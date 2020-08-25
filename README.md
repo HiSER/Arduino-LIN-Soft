@@ -6,8 +6,8 @@
 
 HSLINSoft lin;
 
-timeoutBits = 0 - отключить таймаут
-timeoutBits = 65535 - таймаут будет равет baud, т.е. ~1сек.
+// timeoutBits = 0 - отключить таймаут
+// timeoutBits = 65535 - таймаут будет равет baud, т.е. ~1сек.
 lin.begin(pinTX, pinRX[, baud = 19200[, breakBits = 13[, timeoutBits = 65535]]]);
 
 lin.query(pid, responseLength); // запрос, pid - адрес, responseLength - длина ответа включая CRC
